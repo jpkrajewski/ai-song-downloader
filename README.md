@@ -29,7 +29,7 @@ Get Songs from Prompt:
 Use this command to generate song titles based on an AI prompt and download them as MP3s:
 
 ```bash
-uv run main.py from-prompt "Your creative prompt here"
+uv run aisd/src/cli.py from-prompt "Your creative prompt here"
 ```
 
 Example:
