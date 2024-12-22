@@ -3,7 +3,7 @@ from pathlib import Path
 
 import pytest
 
-from ai_song_downloader.src.download import extract_url_from_payload
+from aisd.src.download import extract_url_from_payload
 
 REGRESSION_DIR = Path(__file__).resolve().parent / "regression"
 

@@ -1,6 +1,6 @@
-from ai_song_downloader.src.ai.providers.base import Provider
-from ai_song_downloader.src.ai.providers.cohere import CohereProvider
-from ai_song_downloader.src.config import config
+from aisd.src.ai.providers.base import Provider
+from aisd.src.ai.providers.cohere import CohereProvider
+from aisd.src.config import config
 
 PROVIDERS = {"cohere": CohereProvider}
 

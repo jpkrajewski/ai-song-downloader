@@ -35,7 +35,7 @@ uv run main.py from-prompt "Your creative prompt here"
 Example:
 
 ```bash
-uv run main.py from-prompt "summer party DJ mix"
+uv run aisd/src/cli.py from-prompt "summer party DJ mix"
 ```
 
 ### Download from Playlist:
@@ -43,7 +43,7 @@ uv run main.py from-prompt "summer party DJ mix"
 Provide a YouTube playlist URL to download all songs as MP3 files:
 
 ```bash
-uv run main.py from-playlist "https://www.youtube.com/playlist?list=YOUR_PLAYL
+uv run aisd/src/cli.py from-playlist "https://www.youtube.com/playlist?list=YOUR_PLAYL
 ```
 
 # Development 🛠️

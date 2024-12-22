@@ -6,8 +6,8 @@ import requests
 import yt_dlp
 from bs4 import BeautifulSoup
 
-from ai_song_downloader.src.config import config
-from ai_song_downloader.src.helpers import Maybe
+from aisd.src.config import config
+from aisd.src.helpers import Maybe
 
 logger = logging.getLogger(__name__)
 

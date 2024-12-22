@@ -2,7 +2,7 @@ import logging
 
 import cohere
 
-from ai_song_downloader.src.ai.providers.base import Provider
+from aisd.src.ai.providers.base import Provider
 
 logger = logging.getLogger(__name__)
 
